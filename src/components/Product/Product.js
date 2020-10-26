@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Product.scss";
-import BgImage from '../../assets/images/cat-bg.png'
+import BgImage from '../../assets/images/cat-bg.png';
 
 
 const InfoDefault = ({select}) => {
@@ -34,9 +34,9 @@ const Product = ({
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-      <li className={`products__item
-          ${ isSelected ? "selected" : ""}
-          ${ !isAvailable ? "disabled" : ""}`}
+      <li className={ `products__item
+          ${ isSelected ? "selected" : "" }
+          ${ !isAvailable ? "disabled" : ""}` }
           id={ id }>
         <section className="products__card card"
                  onClick={ () => selectProductHandler(id) }
