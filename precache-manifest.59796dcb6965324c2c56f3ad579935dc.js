@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a31f5aebd156cb402420decb38d72078",
+    "revision": "3b2100bffdf3967f06ae98077a1d81b8",
     "url": "/nya/index.html"
   },
   {
-    "revision": "df9eef6c3dfabf3e49c4",
-    "url": "/nya/static/css/main.0de46f5f.chunk.css"
+    "revision": "b3247bc929e203310346",
+    "url": "/nya/static/css/main.1129c380.chunk.css"
   },
   {
     "revision": "6f5f825942d622c0382e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nya/static/js/2.93cfe242.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df9eef6c3dfabf3e49c4",
-    "url": "/nya/static/js/main.885642dd.chunk.js"
+    "revision": "b3247bc929e203310346",
+    "url": "/nya/static/js/main.2bd23b8b.chunk.js"
   },
   {
     "revision": "c76e58d21fa06b54a530",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d479314e3c9aa85ccbd24ef14841d9d0",
     "url": "/nya/static/media/Pattern@2x.d479314e.png"
+  },
+  {
+    "revision": "7eb9e6589ef62eec7997125b0e7ee457",
+    "url": "/nya/static/media/Shadow.7eb9e658.png"
   },
   {
     "revision": "48c4ef39806ef76eaeced814b8a5705c",
