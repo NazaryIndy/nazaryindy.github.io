@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nya/static/css/main.e7ef9c4e.chunk.css",
+    "main.css": "/nya/static/css/main.0de46f5f.chunk.css",
     "main.js": "/nya/static/js/main.885642dd.chunk.js",
     "main.js.map": "/nya/static/js/main.885642dd.chunk.js.map",
     "runtime-main.js": "/nya/static/js/runtime-main.c6d088f6.js",
@@ -8,9 +8,9 @@
     "static/js/2.93cfe242.chunk.js": "/nya/static/js/2.93cfe242.chunk.js",
     "static/js/2.93cfe242.chunk.js.map": "/nya/static/js/2.93cfe242.chunk.js.map",
     "index.html": "/nya/index.html",
-    "precache-manifest.7dcf79c0f40b3ada1b5a692ba7568df1.js": "/nya/precache-manifest.7dcf79c0f40b3ada1b5a692ba7568df1.js",
+    "precache-manifest.7e77fc9076f3646254119c704989f8cd.js": "/nya/precache-manifest.7e77fc9076f3646254119c704989f8cd.js",
     "service-worker.js": "/nya/service-worker.js",
-    "static/css/main.e7ef9c4e.chunk.css.map": "/nya/static/css/main.e7ef9c4e.chunk.css.map",
+    "static/css/main.0de46f5f.chunk.css.map": "/nya/static/css/main.0de46f5f.chunk.css.map",
     "static/js/2.93cfe242.chunk.js.LICENSE.txt": "/nya/static/js/2.93cfe242.chunk.js.LICENSE.txt",
     "static/media/Product.scss": "/nya/static/media/Trebuchet-MS.48c4ef39.ttf",
     "static/media/App.scss": "/nya/static/media/pattern.8e412cf5.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6d088f6.js",
     "static/js/2.93cfe242.chunk.js",
-    "static/css/main.e7ef9c4e.chunk.css",
+    "static/css/main.0de46f5f.chunk.css",
     "static/js/main.885642dd.chunk.js"
   ]
 }
