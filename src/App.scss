@@ -21,8 +21,8 @@ li {
   min-height: 100vh;
   color: $text-color-light;
   background-color: $bg-color-dark;
-  background-image: url("./assets/images/pattern.png");
-  background-repeat: repeat;
+  background-image: url("./assets//images/Shadow.png"), url("./assets/images/pattern.png");
+  background-repeat: repeat repeat;
 
   &__title {
     font-family: $font-title;

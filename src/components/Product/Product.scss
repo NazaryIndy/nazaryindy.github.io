@@ -60,7 +60,6 @@
 }
 
 /* CARD STYLES */
-
 .card {
   position: relative;
   flex-direction: column;
@@ -77,8 +76,12 @@
   background-color: $bg-color-light;
   color: $text-color-dark;
   overflow: hidden;
+  cursor: pointer;
   -webkit-clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
+  -ms-clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
+  -o-clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
   clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
+
   transition: all .5s ease;
 
   &:before {
@@ -89,6 +92,7 @@
     border-top: 45px solid $color-default;
     border-right: 45px solid transparent;
     transition: all .5s ease;
+    overflow: hidden;
   }
 
   &__intro {

@@ -38,6 +38,7 @@ const Product = ({
           ${ isSelected ? "selected" : "" }
           ${ !isAvailable ? "disabled" : ""}` }
           id={ id }>
+
         <section className="products__card card"
                  onClick={ () => selectProductHandler(id) }
                  onMouseEnter={ () => setIsHovered(true) }
