@@ -1,0 +1,54 @@
+@import "./variables";
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.app {
+  font-family: $font-card;
+  font-size: 14px;
+  line-height: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: $text-color-light;
+  background-color: $bg-color-dark;
+  background-image: url("./assets/images/pattern.png");
+  background-repeat: repeat;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 36px;
+    line-height: 44px;
+    height: 10vh;
+
+    @media only screen and (max-width: 1024px) {
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 26px;
+      line-height: 31px;
+      height: unset;
+    }
+  }
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-moz-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    .app {
+      background-image: url('./assets/images/Pattern@2x.png');
+    }
+}

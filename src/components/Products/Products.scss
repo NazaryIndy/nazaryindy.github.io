@@ -1,0 +1,14 @@
+.products {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+
+  @media only screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}

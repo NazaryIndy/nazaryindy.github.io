@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Exo2.0-Thin";
+  src: url(./assets/fonts/Exo2.0-Thin.otf);
+}
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(./assets/fonts/Trebuchet-MS.ttf);
+}
+
+$bg-color-dark: #010101;
+$bg-color-light: #F2F2F2;
+
+$text-color-light: #FFFFFF;
+$text-color-dark: #000000;
+$text-color-grey: #666666;
+
+$color-default: #1697D9;
+$color-default-hover: #2EA8E6;
+$color-selected: #D91667;
+$color-selected-hover: #E52E7A;
+$color-disabled: #B3B3B3;
+
+$font-card: "Trebuchet MS", sans-serif;
+$font-title: "Exo2.0-Thin", sans-serif;
