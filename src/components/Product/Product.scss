@@ -77,7 +77,7 @@
   background-color: $bg-color-light;
   color: $text-color-dark;
   overflow: hidden;
-
+  -webkit-clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
   clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
   transition: all .5s ease;
 
