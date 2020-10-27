@@ -19,4 +19,5 @@ $ npm start
   * последнее задание не выполнено
 
 
-[### Level1 - answers](https://github.com/NazaryIndy/nya/blob/main/level1.md)
+[Level1 - answers](https://github.com/NazaryIndy/nya/blob/main/level1.md)
+[Исходное задание](https://github.com/NazaryIndy/nya/blob/main/qt-html-css-js.pdf)
